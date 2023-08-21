@@ -1,0 +1,6 @@
+old/
+node_modules/
+vendor/
+assets/build/img/
+application/config/config.php
+application/config/database.php

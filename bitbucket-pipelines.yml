@@ -1,0 +1,17 @@
+# Template PHP Build
+
+# This template allows you to validate your PHP application.
+# The workflow allows running tests and code linting on the default branch.
+
+image: bitnami/git
+
+pipelines:
+
+  branches:
+    master:
+      - step:
+          script:
+            - echo "This script runs only on commit to the main branch."
+            - apt-get update
+            - apt-get -qq install git-ftp
+            - git ftp push --user $USER --passwd $SENHA ftp://$FTP

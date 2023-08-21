@@ -1,0 +1,32 @@
+.sidebar-wrapper {
+    margin-top: 153px;
+
+}
+
+.sidebar-wrapper ul li a {
+    min-height: 50px;
+}
+
+.sidebar-wrapper ul li a p {
+    display: none;
+}
+
+.sidebar .nav li>a, .off-canvas-sidebar .nav li>a {
+  margin: 10px 5px 0;
+}
+
+.sidebar .logo {
+  display: none;
+}
+
+.sidebar, .off-canvas-sidebar {
+	width: 60px;
+}
+
+.sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
+	width: 60px;
+}
+
+.main-panel {
+  width: calc(100% - 50px);
+}
